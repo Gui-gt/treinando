@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 div{
     position: absolute;
     top: 50%;
@@ -16,6 +17,7 @@ div{
     height: 200px;
     width: 200px;
     transition: 1s;
+    transition: linear;
 }
 div:hover{
     width: 500px;
