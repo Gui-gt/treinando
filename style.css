@@ -8,12 +8,17 @@ div{
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 50%;
-
-    background-image: url(jesus.jpg);
+    background-image: url(garou.jpg);
     background-repeat: no-repeat;
     background-color: black;
     background-position: center;
     background-size: contain;
     height: 200px;
     width: 200px;
+    transition: 1s;
+}
+div:hover{
+    width: 500px;
+    height: 500px;
+    transition: 1s;
 }
